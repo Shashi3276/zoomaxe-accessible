@@ -1,0 +1,19 @@
+{
+  "name": "zoomaxe-accessible",
+  "version": "1.0.0",
+  "description": "A project focused on accessibility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "accessibility-test": "jest --runInBand --testPathPattern=./tests/accessibility.test.js",
+  },
+  "dependencies": {
+    "jest-axe": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-plugin-jsx-a11y": "latest"
+  },
+  "author": "Shashi3276",
+  "license": "MIT"
+}
